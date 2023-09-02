@@ -3,6 +3,16 @@
 
 @import "{{ site.theme }}";
 
-.inner {
-  max-width: 100%;
+.wrapper {
+  width:100%;
+  // left side is 270
+  // 1200-270 = 930
+  // 30px free room
+  margin:0 auto;
+}
+
+section {
+  width:100%;
+  float:right;
+  padding-bottom:50px;
 }
