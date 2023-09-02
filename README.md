@@ -12,7 +12,7 @@
 ### [Greenhouse Gas Emissions](https://github.com/mehulg09/portfolio/blob/main/Project_Codes/DataScienceProject%20(5).ipynb)
 * Mini project investigating UK government's commitment to reducing greenhouse gas emissions (GHG) to net-zero by 2050. Includes short summary of my findings and analysis with different plots.
 
-<img src="images/GHG.png" width = "315" height = "270"><img src="images/GHG2.png" width = "315" height = "270"><img src="images/GHG3.png" width = "315" height = "270">
+<img src="images/GHG.png" width = "300" height = "250"><img src="images/GHG2.png" width = "300" height = "250"><img src="images/GHG3.png" width = "300" height = "250">
 
 
 ## Scientific Computing
@@ -20,7 +20,7 @@
 ### [Markov Chain Monte Carlo (MCMC) Method](https://github.com/mehulg09/portfolio/blob/main/Project_Codes/RandomWalk-MCMC-Fit.ipynb)
 * A powerful model predicting any function's parameters or minimum points, curve fitting, and other potential uses in areas of statistical physics. 
 
-<img src="images/minimum.png" width = "315" height = "270"><img src="images/minimum2.png" width = "315" height = "270"><img src="images/minimum3.png" width = "315" height = "270">
+<img src="images/minimum.png" width = "300" height = "250"><img src="images/minimum2.png" width = "300" height = "250"><img src="images/minimum3.png" width = "300" height = "250">
 
 ### [Numerical Differentiation](https://github.com/mehulg09/portfolio/blob/main/Project_Codes/Numerical-Diff.ipynb)
 * Three methods of increasing sophistication to estimate the derivative of a mathematical function. Also looking into how to choose the parameters of these methods to get accurate results, testing algorithm and exploring errors.
