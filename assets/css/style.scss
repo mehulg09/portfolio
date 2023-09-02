@@ -1,26 +1,23 @@
 @import "{{ site.theme }}";
 
 .wrapper {
-  max-width: 100%; /* Change to allow responsiveness */
-  padding: 0 15px; /* Add some padding to the sides for mobile devices */
-  box-sizing: border-box; /* Include padding in the width calculation */
+  width: 1200px; /* Keep the fixed width for desktop */
+  margin: 0 auto;
 }
 
 section {
-  width: 100%; /* Make the section full width on smaller screens */
-  float: none; /* Remove float for mobile devices */
-  padding: 15px 0; /* Add some padding to the top and bottom for spacing */
-  box-sizing: border-box; /* Include padding in the width calculation */
+  width: 900px; /* Keep the fixed width for desktop */
+  float: right;
+  padding-bottom: 50px;
 }
 
-/* Media query for screens smaller than 768px (adjust this breakpoint as needed) */
-@media screen and (max-width: 768px) {
+/* Disable responsiveness for all screen sizes */
+@media screen and (max-width: 9999px) {
   .wrapper {
-    padding: 0; /* Remove padding on smaller screens */
+    width: 1200px;
   }
 
   section {
-    width: 100%; /* Make the section full width on smaller screens */
-    padding: 15px 0; /* Add some padding to the top and bottom for spacing */
+    width: 900px;
   }
 }
