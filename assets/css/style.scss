@@ -1,18 +1,26 @@
----
----
-
 @import "{{ site.theme }}";
 
 .wrapper {
-  width:75%;
-  // left side is 270
-  // 1200-270 = 930
-  // 30px free room
-  margin:0 auto;
+  max-width: 100%; /* Change to allow responsiveness */
+  padding: 0 15px; /* Add some padding to the sides for mobile devices */
+  box-sizing: border-box; /* Include padding in the width calculation */
 }
 
 section {
-  width:75%;
-  float:right;
-  padding-bottom:50px;
+  width: 100%; /* Make the section full width on smaller screens */
+  float: none; /* Remove float for mobile devices */
+  padding: 15px 0; /* Add some padding to the top and bottom for spacing */
+  box-sizing: border-box; /* Include padding in the width calculation */
+}
+
+/* Media query for screens smaller than 768px (adjust this breakpoint as needed) */
+@media screen and (max-width: 768px) {
+  .wrapper {
+    padding: 0; /* Remove padding on smaller screens */
+  }
+
+  section {
+    width: 100%; /* Make the section full width on smaller screens */
+    padding: 15px 0; /* Add some padding to the top and bottom for spacing */
+  }
 }
